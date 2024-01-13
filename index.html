@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Entête -->
+    <header class="container-fluid fixed-header">
+            <div class="row bg-light pt-4 ps-5">
+                <div class="col-6"><h5><a href="index.html" class="text-dark">ＷａｎｄｅｒＬｕｓｔ</a></h5></div>
+                <div class="col-6 ps-5">
+                    <ul class="d-flex justify-content-evenly">
+                        <li class="d-flex"><i class="bi bi-clock me-2 text-orange
+                            text-orange"></i><h6 class="pt-1">08:30 - 18:30</h6></li>
+                        <li class="d-flex"><i class="bi bi-telephone-fill me-1 text-orange
+                            text-orange"></i><h6 class="pt-1">+1 514 123 456</h6></li>
+                        <li style="position: relative; bottom:6px ;"><a href="https://voice.google.com/" target="_blank"><button type="button" class="btn btn-outline-dark">Appelez-Nous</button></a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- barre de navigation -->
+            <div class="row text-center bg-brown text-white fw-bold py-3" id="navbar">
+                <div class="col"><a href="index.html" id="accueil-link">Accueil</a></div>
+                <div class="col"><a href="#temoignage">Témoignage</a></div>
+                <div class="col"><a href="#destinations">Destinations</a></div>
+                <div class="col"><a href="#apropos">A propos</a></div>
+                <div class="col"><a href="#equipe">Equipe</a></div>
+                <div class="col"><a href="#contact">Contact</a></div>
+                <div class="col"><a href="#liens">Liens</a></div>
+            </div>            
+        </div>
+    </header>
+    <main>
+        <!-- Accueil -->
+        <section class="container-fluid bg-grayish text-center pt-5 mt-5" id="accueil">
+            <h1 class="mt-5 mb-3 pt-5">Top Destinations</h1>
+            <p>Découvrez les destinations les plus prisées et envoûtantes à travers le monde, et laissez notre agence de voyage vous guider vers des expériences de voyage inoubliables.</p>
+            <div class="row p-5 text-white">
+                <div class="col" style="background-image: url(images/topdestination-1.jpg); background-size:cover; height: 600px; border-radius: 3%; box-shadow: 0 0 15px #000;">
+                    <h5 style="position: relative; top:550px; left: 0; right: 0; padding: 10px; background-color: rgba(138, 2, 2, 0.589); color: white;">Canada</h5>
+                </div>
+                <div class="col mx-5" style="background-image: url(images/topdestination-2.jpg);background-size:cover; height: 600px;  border-radius: 3%; box-shadow: 0 0 15px #000;">
+                    <h5 style="position: relative; top:550px; left: 0; right: 0; padding: 10px; background-color: rgba(122, 0, 0, 0.505); color: white;">France</h5>
+                </div>
+                <div class="col"style="background-image: url(images/topdestination-3.jpg);background-size:cover; height: 600px;  border-radius: 3%; box-shadow: 0 0 15px #000;">
+                    <h5 style="position: relative; top:550px; left: 0; right: 0; padding: 10px; background-color: rgba(122, 0, 0, 0.505); color: white;">Suède</h5>
+                </div>
+            </div>
+        </section>
+        <!-- Témoignage -->
+        <section class="container-fluid text-center bg-brown text-white p-5" id="temoignage">
+            <h1 class="mb-4 text-orangish">Témoignages de voyageurs</h1>
+            <p class="mb-5">Découvrez les récits captivants et inspirants de nos voyageurs, partageant leurs expériences uniques à travers le monde, pour vous faire rêver et vous donner l'envie de partir à votre tour.</p>
+            <div class="row">
+                <div class="col text-center">
+                    <div class="img mb-4" style="background-image: url(images/client1.jpg);background-size:cover; height: 100px; width:100px; margin:auto">
+                    </div>
+                    <div class="txt">
+                        <p>Découverte de la France : Paris, Provence, délices culinaires, histoire et culture riches. Des souvenirs inoubliables qui donnent envie de revenir.</p>
+                        <h5>Jason Carpenter</h5>
+                    </div>
+                </div>
+                <div class="col text-center">
+                    <div class="img mb-4" style="background-image: url(images/client2.jpg);background-size:cover; height: 100px; width:100px; margin:auto">
+                    </div>
+                    <div class="txt">
+                        <p>Japon : temples majestueux, cuisine délicieuse, technologie futuriste. Immersion culturelle inoubliable entre tradition et modernité.</p>
+                        <h5>Sofia Reyes</h5>
+                    </div>
+                </div>
+                <div class="col text-center">
+                    <div class="img mb-4" style="background-image: url(images/client3.jpg);background-size:cover; height: 100px; width:100px; margin:auto">
+                    </div>
+                    <div class="txt">
+                        <p>Norvège : fjords époustouflants, montagnes majestueuses, patrimoine viking. Un voyage extraordinaire à ne pas manquer.</p>
+                        <h5>Robert Lawrence</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Destinations -->
+        <section class="container-fluid text-center bg-grayish pt-5" id="destinations">
+            <h1>Nos Destinations</h1>
+            <div class="row text-white p-5">
+                <div class="col bg-red" style="background-image: url(images/destination-1.jpg); background-size:contain; background-repeat: no-repeat; height: 400px; width: 300px;border-radius: 20%">
+                    <div class="description" style="position: relative; top: 250px;"> 
+                        <h4>Japon</h4>
+                         <p>le Japon vous offre une expérience culturelle unique où tradition et modernité se côtoient harmonieusement.
+                         </p>
+                    </div>
+                </div>
+                <div class="col mx-5 bg-blue" style="background-image: url(images/destination-2.jpg); background-size: contain; background-repeat: no-repeat; height: 400px; width: 300px; border-radius: 20%">
+                    <div class="description" style="position: relative; top: 250px;"> 
+                        <h4>Californie</h4>
+                         <p>Laissez-vous séduire par l'hospitalité chaleureuse des Californiens et vivez des moments inoubliables dans cette destination ensoleillée.
+                         </p>
+                    </div>
+                </div>
+                <div class="col bg-green" style="background-image: url(images/destination-3.jpg); background-size: contain; background-repeat: no-repeat; height: 400px; width: 300px; border-radius: 20%">
+                    <div class="description" style="position: relative; top: 250px;"> 
+                        <h4>Australie</h4>
+                         <p>Explorez les vastes paysages, des plages de sable blanc aux impressionnants sites naturels tels que le parc national de Kakadu ou la Grande Barrière de Corail. 
+                         </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row p-5 text-white">
+                <div class="col bg-red" style="background-image: url(images/destination-4.jpg); background-size:contain; background-repeat: no-repeat; height: 400px; width: 300px; border-radius: 20%">
+                    <div class="description" style="position: relative; top: 250px;"> 
+                        <h4>Allemagne</h4>
+                         <p> Plongez-vous dans l'effervescence des villes animées comme Munich et Hambourg, où vous trouverez une scène artistique, culinaire et culturelle dynamique. 
+                         </p>
+                    </div>
+                </div>
+                <div class="col mx-5 bg-blue" style="background-image: url(images/destination-5.jpg); background-size: contain; background-repeat: no-repeat; height: 400px; width: 300px; border-radius: 20%">
+                    <div class="description" style="position: relative; top: 250px;"> 
+                        <h4>Russie</h4>
+                         <p>Des vastes étendues de la Taïga aux montagnes de l'Oural,les lacs cristallins de la région des lacs de Carélie,la diversité des paysages et la richesse de la faune.
+                         </p>
+                    </div>
+                </div>
+                <div class="col bg-green" style="background-image: url(images/destination-6.jpg); background-size: contain; background-repeat: no-repeat; height: 400px; width: 300px; border-radius: 20%">
+                    <div class="description" style="position: relative; top: 250px;"> 
+                        <h4>Brésil</h4>
+                         <p>La culture brésilienne est tout aussi captivante. La musique, la danse et la joie de vivre sont ancrées dans l'âme du peuple brésilien.de la samba lors du célèbre carnaval de Rio.
+                         </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- A propos -->
+        <section class="container-fluid" id="apropos">
+            <div class="row">
+                <div class="col bg-browgray text-white p-5" style="text-align: justify;">
+                    <h1>Qui somme nous ?</h1>
+                <p>Bienvenue chez Wanderlust, votre porte d'entrée vers l'aventure et la découverte. Plongez dans un monde de voyages inoubliables et laissez votre soif d'exploration être comblée.
+
+                    Chez Wanderlust, nous croyons en la puissance des voyages pour élargir les horizons, créer des souvenirs durables et nourrir l'âme des voyageurs intrépides. Que vous soyez un explorateur solitaire, un couple en quête de romance ou une famille en quête de nouvelles expériences, nous avons les voyages parfaits pour vous.
+                    
+                    Notre équipe d'experts passionnés est là pour vous guider à chaque étape de votre voyage. Nous avons sélectionné les destinations les plus captivantes et les plus exotiques à travers le monde, afin de vous offrir des expériences uniques et authentiques.
+                    
+                    Rejoignez-nous chez Wanderlust et laissez-nous vous guider vers de nouvelles destinations, de nouvelles cultures et de nouvelles expériences. Ouvrez votre esprit, suivez votre passion et préparez-vous à vivre des moments magiques qui resteront gravés dans votre mémoire pour toujours.
+                    
+                    Préparez-vous à l'émerveillement, à l'excitation et à l'inspiration. L'aventure vous attend chez Wanderlust. Embarquez dès maintenant pour le voyage de votre vie !</p>
+            </div>
+            <div class="col" style="background-image: url(images/bureau.jpg); background-size: cover;"> 
+            </div>
+        </div> 
+        </section>
+        <!-- Notre équipe -->
+        <section class="container-fluid bg-grayish text-center pt-5" id="equipe" style="height: 700px;">
+            <h1>Notre Equipe</h1>
+            <div class="row p-5">
+                <div class="col" style="background-image:url(images/membre-1.jpg); background-size: cover; height: 400px; border-top-left-radius: 30%; border-bottom-right-radius: 30%; box-shadow: 0 0 15px #000;">
+                    <div class="text mt-3" style="position: relative; top: 405px;">
+                        <h5>Camara Diaz</h5>
+                    <h6>Responsable RH</h6>
+                </div>
+                    
+                </div>
+                <div class="col mx-5" style="background-image:url(images/membre-2.jpg); background-size: cover; height: 400px; border-top-right-radius: 30%; border-bottom-left-radius: 30%; box-shadow: 0 0 15px #000;">
+                    <div class="text mt-3" style="position: relative; top: 405px;">
+                         <h5>Julia Allison</h5>
+                    <h6>Directrice générale</h6>
+                    </div>
+                </div>
+                <div class="col me-5" style="background-image:url(images/membre-3.jpg); background-size: cover; height: 400px; border-top-left-radius: 30%; border-bottom-right-radius: 30%; box-shadow: 0 0 15px #000;">
+                    <div class="text mt-3" style="position: relative; top: 405px;">
+                        <h5>Angela Smith</h5>
+                        <h6>Responsable Marketing</h6>
+                    </div> 
+                </div>
+                <div class="col" style="background-image:url(images/membre-4.jpg); background-size: cover; height: 400px; border-top-right-radius: 30%; border-bottom-left-radius: 30%; box-shadow: 0 0 15px #000;">
+                    <div class="text mt-3" style="position: relative; top: 405px;">
+                        <h5>Kesha Johnson</h5>
+                        <h6>Conseiller client</h6>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Nous Contactez -->
+        <section class="container-fluid bg-light border border-top p-5" id="contact">
+            <div class="row">
+                <div class="col" style="width: 500px;">
+                    <h2 align="center" class="my-4">Formulaire de contact</h2>
+                    <div class="mb-3 fw-bold">
+                        <label for="Nom" class="form-label">Entrez votre Nom: </label>
+                        <input type="text" class="form-control" placeholder="Entrez votre Nom">
+                    </div>
+                    <div class="mb-3 fw-bold">
+                        <label for="Email" class="form-label">Entrez votre Email: </label>
+                        <input type="email" class="form-control" placeholder="Entrez votre Email">
+                    </div>
+                    <div class="mb-3 fw-bold">
+                        <label for="Message" class="form-label">Ecrivez un message: </label>
+                        <textarea class="form-control" rows="3" placeholder="Ecrivez un message"></textarea>
+                    </div>
+                </div>
+                <div class="col text-center">
+                    <h2 class="my-4">Adresse</h2>
+                    <div class="adresse pt-3 text-center">
+                        <p class="border border-dark mt-4 p-5 fw-bold">Wanderlust<br>
+                        123 Rue du Voyage
+                        Montréal,<br> QC H0H 0H0
+                        Canada<br>Telephone: +1 514 123 4567<br>Email:  contact-wanderrlust@github.io</p>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+    </main>
+    <!-- footer -->
+    <footer class="container-fluid bg-brown text-white px-4 pt-5 me-5" id="liens">
+        <div class="row">
+            <div class="col">
+                <h5>Contactez nous</h5>
+                <p>Wanderlust<br>
+                    123 Rue du Voyage
+                    Montréal,<br> QC H0H 0H0
+                    Canada<br>Telephone: +1 514 123 4567<br>Email:  contact-wanderrlust@github.io
+                </p>
+            </div>
+            <div class="col">
+                <h5> Notre Agence</h5>
+                <div class="col d-flex" style="justify-content:flex-start;padding-left: 0;">
+                    <ul style="position: relative; left: -30px;">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="#temoignage">Témoignage</a></li>
+                        <li><a href="#destinations">Destinations</a></li>
+                    </ul> 
+                    <ul style="justify-content:flex-start;padding-left: 10px;">
+                        <li><a href="#apropos">A propos</a></li>
+                        <li><a href="#equipe">Equipe</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+              </div>  
+            </div>
+            <div class="col ms-5 ps-0">
+                <h5> Nos Destinations</h5>
+                <div class="row text-left">
+                    <div class="col ps-0">
+                      <ul style="position: relative; right: 20px;">
+                        <li>France</li>
+                        <li>Canada</li>
+                        <li>Etats Unis</li>
+                        <li>Australie</li>
+                        <li>Japon</li>
+                      </ul>
+                    </div>
+                    <div class="col">
+                      <ul style="position: relative; right: 45px;">
+                        <li>Russie</li>
+                        <li>Bésil</li>
+                        <li>Suède</li>
+                        <li>Italie</li>
+                        <li>Allemagne</li>
+                      </ul>
+                    </div>
+                  </div>
+                  
+            </div>
+            <div class="col mb-3">
+                <h5>Adresse sur la carte</h5>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d178786.28934364373!2d-73.71187335!3d45.55966346800506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91a541c64b70d%3A0x654e3138211fefef!2sMontreal%2C%20QC%2C%20Canada!5e0!3m2!1sen!2sma!4v1705019534894!5m2!1sen!2sma" width="300" height="130" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div class="row mx-0  py-3 brder border-top">
+            <div class="col-9">Copyright © 2024 Wanderlust. Tous droits réservés.</div>
+            <div class="col-3 d-flex justify-content-evenly">
+               <a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a>
+               <a href="https://www.pinterest.com/" target="_blank"><i class="bi bi-pinterest"></i></a>
+               <a href="https://twitter.com/?lang=en" target="_blank"><i class="bi bi-twitter"></i></a>
+               <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a>
+            </div>     
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
